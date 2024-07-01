@@ -1,0 +1,23 @@
+key bindings:
+ - { key: Comma,      mods: Command, command: {program: "sh", args: ["-c","open ~/.config/alacritty/alacritty.yml"]} }
+ - { key: N,         mods: Command,      action: SpawnNewInstance       }
+ - { key: Space,     mods: Alt,          chars: " "                     }
+ - { key: Back,      mods: Super, chars: "\x15" } 
+ - { key: Left,      mods: Alt,     chars: "\x1BB"                       } 
+ - { key: Right,     mods: Alt,     chars: "\x1BF"                       }
+
+font:
+  normal:
+    family: "Hack Nerd Font"
+    style: Regular
+  bold:
+    family: "Hack Nerd Font"
+    style: Bold
+  italic:
+    family: "Hack Nerd Font"
+    style: Italic
+  bold_italic:
+    family: "Hack Nerd Font"
+    style: BoldItalic
+
+  size: 14.0
